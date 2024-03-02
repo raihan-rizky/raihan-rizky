@@ -225,17 +225,17 @@ header.navbar {
 .sidebar {
   display: none;
   width: 150px;
-  height: 50%;
+  height: 40%;
+
   text-align: center;
-  position: fixed;
+  position: absolute;
   top: 0;
-  right: -250px; 
+  right: -240px; 
   background: linear-gradient(to right,rgba(0, 98, 185, 0.8),rgba(0, 98, 185, 0.8)),url('assets/img/pattern.jpg');
-  padding-top: 40px; 
-  
   font-size: 1.25rem;
   font-weight: 600;
   line-height: 2rem;
+  
   
 }
 
@@ -247,6 +247,7 @@ header.navbar .sidebar li:hover a {
 .sidebar ul {
   list-style-type: none;
   padding: 0;
+
 }
 
 .sidebar ul li {
@@ -262,6 +263,8 @@ header.navbar .sidebar li:hover a {
   display: block;
   margin-top: 80px;
   transition: bottom 2s ease-in-out; 
+  height: 16rem;
+  border-radius: 5%;
   
   
   right: 0;
