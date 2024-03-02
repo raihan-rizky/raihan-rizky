@@ -64,6 +64,7 @@ header.navbar {
     text-decoration: underline;
   }
 
+
   .home{
     color: azure;
     background: linear-gradient(to right,rgba(0, 98, 185, 0.8),rgba(0, 98, 185, 0.8)),url('assets/img/pattern.jpg');
@@ -86,8 +87,8 @@ header.navbar {
     font-size: 1.5rem;
     text-align: center;
     width: 100%;
-    min-width: 900px;
-    padding-inline: 15rem;
+    min-width: 500px;
+    padding-inline: 10rem;
     text-wrap: balance;
         
 
@@ -118,6 +119,7 @@ header.navbar {
   .about{
     background-color: whitesmoke;
     padding: 5rem;
+    
       }
   .about>p{
     text-align: justify;
@@ -196,7 +198,7 @@ header.navbar {
   font-size: 1.2rem;
   text-align: justify;
   width: 100%;
-  min-width: 400px;
+  min-width: 200px;
 
 }
 .descriptive img{
@@ -209,7 +211,8 @@ header.navbar {
 
 .profile-me{
   display: flex;
-  min-width: 300px;
+  align-items: center;
+  min-width: 200px;
   flex-shrink: 0;
 
 }
@@ -305,7 +308,7 @@ header.navbar .sidebar li:hover a {
   
   max-width: 1000px;
   width: 100%;
-  min-width: 400px;
+  min-width: 150px;
   background-color: white;
   padding: 2.5rem;
   margin: auto;
@@ -383,8 +386,8 @@ input[type="submit"]:hover {
 }
 
   .home{
-    padding: 10rem;
-    margin: 0;
+    padding: 5rem;
+    font-size: 60%;
   }
   header.navbar {
     flex-direction: row;
@@ -394,11 +397,16 @@ input[type="submit"]:hover {
   header.navbar .nav-list ul {
     display: none;
   }
- 
-  main {
-    padding: 1rem 3rem;
+  .projects>h1{
+
+    font-size: 1.8rem;
+    
   }
- 
+
+  .projects>p{
+    font-size: 1rem;
+    
+  }
   main .content {
     flex-direction: column;
     gap: 2rem;
@@ -424,10 +432,14 @@ input[type="submit"]:hover {
   }
  
   main .content .profile-me img{
-    order: -1;
     height: auto;
+    width: 40%;
+    margin: auto;
+    
+
     
   }
+
   .contact{
     padding: 5rem;
   }
